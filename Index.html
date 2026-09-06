@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile Cards</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 50px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #222;
+        }
+
+        
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        
+        .card {
+            background-color: white;
+            width: 280px;
+            padding: 25px;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px gray;
+        }
+
+        .card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        
+        #name1 {
+            color: #6a1b9a;
+        }
+
+        
+        .role {
+            color: #555;
+            font-weight: bold;
+        }
+
+        .bio {
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Our Team</h1>
+
+    <div class="container">
+
+        
+        <div class="card">
+            <img src="me.jpeg" alt="Profile Picture">
+
+            <h2 id="name1">Simran</h2>
+
+            <p class="role">Web Developer</p>
+
+            <p class="bio">
+                Passionate about creating beautiful and responsive websites.
+            </p>
+        </div>
+
+        <div class="card">
+            <img src="marinette.jpg" alt="Profile Picture">
+
+            <h2 id="name2">Marinette</h2>
+
+            <p class="role">C Programmer</p>
+
+            <p class="bio">
+                Passionate about coding and solving problems using C.
+            </p>
+        </div>
+
+        <div class="card">
+            <img src="Adrien_Agreste_29_Square.webp" alt="Profile Picture">
+
+            <h2 id="name3">adrennie</h2>
+
+            <p class="role">Python Developer</p>
+
+            <p class="bio">
+                Exploring programming and automation through python.
+            </p>
+        </div>
+
+    </div>
+
+</body>
+</html>
